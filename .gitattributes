@@ -1,2 +1,5 @@
-* linguist-vendored
+# Markiere alle Dateien im Verzeichnis "vendor" als linguist-vendored
+vendor/** linguist-vendored
+
+# Markiere alle .jsx-Dateien als nicht linguist-vendored
 *.jsx linguist-vendored=false
