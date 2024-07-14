@@ -1,4 +1,4 @@
-const Posts = (props) =>{
+const Posts = ({author}) =>{
     // logic
 
 
@@ -6,7 +6,7 @@ const Posts = (props) =>{
     return(
         <div>
             <h1> Python basics </h1>
-            <h3> Author : {props.authorName} </h3>
+            <h3> Author : {author} </h3>
         </div>
     )
 }

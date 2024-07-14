@@ -5,12 +5,12 @@ import CreatePost from './components/CreatePost'
 
 function App() {
 
-  const authorName = "Abdulrahim Ramadan"
+  const author = "Abdulrahim Ramada"
 
   return (
     <>
       < CreatePost />
-      < Posts authorName={authorName} />
+      < Posts author={author} />
     </>
   )
 }
