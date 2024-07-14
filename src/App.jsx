@@ -6,25 +6,17 @@ import CreatePost from './components/CreatePost'
 
 function App() {
 
-  //let authorName = "Abdulrahim Ramadan"
-  const [authorName,setauthorName] = useState('Python Developer')
+  let Name = "Learn React basics"
 
-  const hello = () =>{
-    //authorName = 'Abdulrahim Ramadan'
-    setauthorName('Abdulrahim Ramadan')
 
-  }
+  
 
   return (
     <>
-      <h1> Hello {authorName}</h1>
-
-      <button onClick={hello}> Click </button>
 
 
-
-     {/* < CreatePost />
-      < Posts author={authorName} />*/}
+      < CreatePost />
+      < Posts name={Name} />
     </>
   )
 }

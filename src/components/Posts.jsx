@@ -1,12 +1,12 @@
-const Posts = ({author}) =>{
+const Posts = ({name}) =>{
     // logic
 
 
     // ui 
     return(
         <div>
-            <h1> Python basics </h1>
-            <h3> Author : {author} </h3>
+            <h1> {name} </h1>
+            
         </div>
     )
 }
