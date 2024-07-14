@@ -68,7 +68,3 @@ For any questions or feedback, feel free to reach out:
 - GitHub: [abdulrahim-ramadan](https://github.com/abdulrahim-ramadan)
 
 Enjoy using React Notes App! 🚀
-
----
-
-Feel free to insert your specific icon URL where it says `![Icon](insert-icon-url-here)`. This README provides a clear structure, emphasizes key features, and includes instructions for setting up the application locally and contributing to the project. Adjust it further to match your specific preferences and project details.
