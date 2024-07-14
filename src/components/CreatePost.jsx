@@ -1,28 +1,28 @@
 import { useState } from "react"
 
-const CreatePost = () =>{
+const CreatePost = ({notes,setNotes,usertext,setUserText}) =>{
     // logic
     
 
-    const [usertext,setUserText] = useState('')
-    
     const userInputHandle = (e) =>{
-
-        console.log(e.target.value)
         setUserText(e.target.value)
     }
 
+    const notesFormSubmit = (e) =>{
+        e.preventDefault();
+        setNotes([...notes,usertext])
+        setUserText('')
+    }
 
     // ui
-    return(
+    return (
         <div> 
-            <h2> {usertext} </h2>
-            <form>
-                <input type="text" onChange={userInputHandle} placeholder="Enter Note Details" /> 
+            <form onSubmit={notesFormSubmit}>
+                <input type="text" value={usertext} onChange={userInputHandle} placeholder="Enter Note Details" /> 
                 <input type="submit" value="Add Note " /> 
             </form>
         </div>
-    )
+    );
 
 }
 
