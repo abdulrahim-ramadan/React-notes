@@ -15,7 +15,7 @@ React Notes App is a lightweight and user-friendly note-taking web application b
 
 ## Demo
 
-Explore a live demo of React Notes App [here](#).
+![project demo](screencapture.png)
 
 ## Getting Started
 
